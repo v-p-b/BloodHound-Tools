@@ -2,6 +2,8 @@
 
 This python script will generate a randomized data set for testing BloodHound features and analysis.
 
+This fork includes the changes from [#22](https://github.com/BloodHoundAD/BloodHound-Tools/issues/22), including updated dependencies. Should work with __neo4j 4.x__ (not tested on 5.x!).
+
 ## Requirements
 
 This script requires Python 3.7+, as well as the neo4j-driver. The script will only work with BloodHound 3.0.0 and above.
